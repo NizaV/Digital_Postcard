@@ -1,0 +1,64 @@
+/* css styles */
+
+body {
+    font-family: 'Squada One', cursive;
+    background-color: black;
+}
+
+.main-container {
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    position: fixed; 
+    top: 25%;
+    left: 25%;
+    padding: 1em;
+    display: inline-grid;
+}
+
+.title {
+    float: left;
+}
+
+.logo {
+    float: right;
+}
+
+img {
+    width: 60px;
+    float: right;
+}
+
+.middle {
+    display: flex;
+}
+
+.main-text {
+    width: 320px;
+}
+
+.info-input {
+    padding-left: 4em;
+}
+
+input,
+textarea {
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 18px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Squada One', cursive;
+}
+
+.button {
+    text-align: center;
+}
+
+button {
+    background-color: aliceblue;
+    border-width: medium;
+    border-color: black;
+    height: 34px;
+    font-family: 'Squada One', cursive;
+}
